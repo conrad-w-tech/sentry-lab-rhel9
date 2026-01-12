@@ -1,0 +1,5 @@
+.env
+sentry/config.yml
+sentry/sentry.conf.py
+*.log
+sentry/cron.log
