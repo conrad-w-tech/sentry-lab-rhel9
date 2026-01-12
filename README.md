@@ -27,4 +27,10 @@ I've automated the Postgres and config backups. To make it "DevOps-y", I integra
 2. Set up your DSN in the variables.
 3. Add to crontab: `0 3 * * * /usr/bin/bash /opt/sentry/scripts/backup-sentry.sh`
 
+## ⚡ Quick Start
+1. `git clone ...`
+2. `chmod +x scripts/*.sh`
+3. `./scripts/install-docker.sh`
+4. `./install.sh` (from sentry-native)
+
 ---
